@@ -90,8 +90,8 @@ void loop() {
       }
     }
     
-    Serial.print(channel_names[channel]);   // print channel name
-    Serial.print(':');
+//    Serial.print(channel_names[channel]);   // print channel name
+//    Serial.print(':');
 
     switch (code) {                       // switch case based on what the response code is.
       case 1:                             // decimal 1  means the command was successful.
